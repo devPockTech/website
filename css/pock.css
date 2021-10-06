@@ -1,0 +1,157 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700;800;900&display=swap');
+
+body {
+    font-family: 'Nunito', serif!important;
+}
+
+/* Estilos de barra de menu */
+
+.menu-bar{
+    background-color: white;
+    height: 60px;
+    margin-top: 20px;
+    margin-bottom: 40px!important;
+    position: relative;
+}
+
+.menu-bar a{
+    margin-top: 25px!important;
+    font-size: 1.5em;
+    color: #636363;
+    font-weight: 600;
+}
+
+.menu-bar a.selected{
+    text-decoration: underline;
+    text-decoration-color: #008DCF;
+}
+
+.menu-bar a.pock-btn{
+    color: #008DCF!important;
+    border: 1px solid #008DCF;
+    border-radius: 25px;
+    padding: 10px;
+    border-width: 2px;
+    font-size: 1em;
+    text-decoration: none;
+}
+
+.menu-bar a.pock-btn:hover{
+    color: white!important;
+    background-color: #008DCF;
+}
+
+/* Estilos de galerias de imagenes */
+
+.main-gallery{
+    margin: 0!important;
+    width: 100%;
+    padding: 0!important;
+    height: 700px!important;
+    position: relative;
+}
+
+.main-gallery .main-gallery-title{
+    position: absolute;
+    bottom: 140px;
+    right: 50px;
+    font-size: 5em;
+    font-weight: 100;
+    text-align: right;
+    color: white;
+    line-height: 1em;
+}
+
+.main-gallery .main-gallery-description{
+    position: absolute;
+    bottom: 75px;
+    right: 50px;
+    font-size: 2em;
+    font-weight: 100;
+    text-align: right;
+    color: white;
+    line-height: 1em;
+}
+
+.main-gallery .main-gallery-button{
+    position: absolute;
+    bottom: 20px;
+    right: 50px;
+}
+
+.main-gallery .main-gallery-button a{
+    font-size: 1em;
+    font-weight: 900!important;
+    color: #008DCF!important;
+}
+
+.main-gallery .main-gallery-button a:hover{
+    color: white!important;
+    background-color: #008DCF!important;
+}
+
+/* Estilos de divs en general */
+
+.who-we-are{
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.who-we-are .card{
+    box-shadow: 20px 20px 21px -12px rgba(136,136,136,1);
+}
+
+.who-we-are .div-title{
+    display: block;
+    font-size: 3em;
+    font-weight: 100;
+}
+
+.who-we-are .div-description{
+    display: block;
+    font-size: 1.5em;
+    font-weight: 200;
+    margin-bottom: 60px;
+}
+
+.who-we-are .card-title{
+    display: block;
+    font-size: 2em;
+    font-weight: 500;
+}
+
+.who-we-are .card-text{
+    font-size: 1em;
+    font-weight: 200;
+    text-align: justify;
+}
+
+/* Estilos del footer */
+
+.page-footer{
+    background-color: #333333;
+    color: white;
+}
+
+.page-footer .footer-title{
+    font-size: 1.5em;
+    font-weight: 200;
+    color: #008DCF;
+    margin-bottom: 20px;
+}
+
+.page-footer a{
+    color: white!important;
+}
+
+.page-footer a .fab{
+    font-size: 2em;
+}
+
+.page-info{
+    background-color: #000;
+    color: white;
+    font-weight: 200;
+}
